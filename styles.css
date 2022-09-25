@@ -82,3 +82,8 @@ li {
 	margin:auto;
 	max-width: fit-content;
 }
+
+.profileBtn {
+	background-color: yellow;
+	font-size: 16px;
+}
