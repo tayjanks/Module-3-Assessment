@@ -1,0 +1,84 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.profileimg {
+	height: 300px;
+	width: 250px;
+}
+
+.currentContainer {
+	width: 1500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 5px dotted orange;
+}
+
+.readingContainer, .watchingContainer {
+	border-right: 5px dotted red;
+	width: 500px;
+	align-self: center;
+	text-align: center;
+
+}
+
+.goalContainer {
+	width: 500px;
+	align-self: center;
+	text-align: center;
+}
+
+h1 {
+	color:red;
+	border-bottom: 5px dotted orange;
+}
+
+
+lh {
+	color: orange
+}
+
+li {
+	margin-left: 20px;
+}
+
+.profile {
+	margin:auto;
+	max-width: fit-content;
+}
